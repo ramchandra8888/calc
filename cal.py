@@ -2,6 +2,9 @@ a=int(input("Enter a no."))
 b=int(input("Enter a no."))
 
 def add(a,b):
-	print(a+b)
+	return a+b
+def substarct(a,b):
+	return a-b
 
-add(a,b)
+print(add(a,b))
+print(substarct(a,b))
